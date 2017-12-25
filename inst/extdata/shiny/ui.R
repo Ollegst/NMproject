@@ -48,7 +48,7 @@ fluidPage(
                                 column(3,wellPanel("Run(s) selected:",
                                                    tags$code(textOutput("results_select_warning")),
                                                    tableOutput("runs_selected_info2"),
-                                                   actionButton("back_to_db2","Select different run(s)"))),
+                                                   actionButton("back_to_db2","Select different run(s)2"))),
                                 column(9,"R command: ",tags$code("run_record([nm object(s)])"),
                                        actionButton("refresh_run_record","refresh"),
                                        DT::dataTableOutput("run_record")))),
